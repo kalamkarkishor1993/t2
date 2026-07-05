@@ -1,0 +1,78 @@
+# Terraform Files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform Plan Files
+*.tfplan
+tfplan
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS Specific Files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.pem
+*.pub
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Local Terraform Variables Override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive Data (uncomment if needed)
+# terraform.tfvars
+# terraform.tfvars.json
+# secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Node (if using CDK or other tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# AWS CLI
+.aws/
+.awsconfig
+
+# Backup Files
+*.backup
+*.bak
+*.swp
+*.tmp
+
+# Generated Files
+*.tfvars
+!terraform.tfvars.example
