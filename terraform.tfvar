@@ -1,0 +1,23 @@
+# AWS Region
+aws_region = "ap-south-1"
+
+# GitHub OIDC Configuration
+github_repo_owner = "kalamkarkishor1993"
+github_repo_name  = "t2"
+github_branch     = "main"
+
+# IAM Role and Policy Names
+iam_role_name   = "TerraformGitHubRole"
+iam_policy_name = "TerraformPolicy"
+
+# VPC and Network Configuration
+vpc_cidr_block    = "192.168.0.0/16"
+subnet_cidr_block = "192.168.0.0/24"
+availability_zone = "ap-south-1a"
+assign_public_ip  = true
+
+# EC2 Instance Configuration
+ami_id       = "ami-0c55b159cbfafe1f0"
+instance_type = "t3.micro"
+
+
