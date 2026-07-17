@@ -67,7 +67,7 @@ resource "aws_security_group" "sg" {
 }
 resource "aws_instance" "ec2_instance" {
   ami             = var.ami_id
-  instance_type   = "t3.micro"
+  instance_type   = "t2.micro"
   subnet_id       = aws_subnet.subnet.id
   security_groups = [aws_security_group.sg.name]
   tags = {
